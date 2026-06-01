@@ -10,7 +10,6 @@ import MediaAbout from '@/components/sections/about/MediaAbout';
 import NavbarStyleApple from '@/components/navbar/NavbarStyleApple/NavbarStyleApple';
 import ProductCardTwo from '@/components/sections/product/ProductCardTwo';
 import SocialProofOne from '@/components/sections/socialProof/SocialProofOne';
-import TestimonialCardSixteen from '@/components/sections/testimonial/TestimonialCardSixteen';
 
 export default function LandingPage() {
   return (
@@ -117,22 +116,22 @@ export default function LandingPage() {
       useInvertedBackground={true}
       products={[
         {
-          id: "1",          brand: "Vesta Premium",          name: "Zümrüt Koltuk Takımı",          price: "₺85.000",          rating: 5,
+          id: "1",          brand: "Vesta Premium",          name: "Zümrüt Koltuk Takımı",          rating: 5,
           reviewCount: "24 Yorum",          imageSrc: "http://img.b2bpic.net/free-photo/wooden-table-luxury-lifestyle-comfortable_1203-4716.jpg",          imageAlt: "Zümrüt Koltuk Takımı"},
         {
-          id: "2",          brand: "Vesta Premium",          name: "Mira Ahşap Yemek Odası",          price: "₺62.500",          rating: 5,
+          id: "2",          brand: "Vesta Premium",          name: "Mira Ahşap Yemek Odası",          rating: 5,
           reviewCount: "18 Yorum",          imageSrc: "http://img.b2bpic.net/free-photo/modern-kitchen-interior-design_23-2150771903.jpg",          imageAlt: "Mira Ahşap Yemek Odası"},
         {
-          id: "3",          brand: "Vesta Premium",          name: "Kanyon Premium Yatak Odası",          price: "₺98.000",          rating: 5,
+          id: "3",          brand: "Vesta Premium",          name: "Kanyon Premium Yatak Odası",          rating: 5,
           reviewCount: "30 Yorum",          imageSrc: "http://img.b2bpic.net/free-photo/luxurious-modern-bedroom-interior-design_23-2151978959.jpg",          imageAlt: "Kanyon Premium Yatak Odası"},
         {
-          id: "4",          brand: "Vesta Premium",          name: "Safir Konsol Masa",          price: "₺35.000",          rating: 5,
+          id: "4",          brand: "Vesta Premium",          name: "Safir Konsol Masa",          rating: 5,
           reviewCount: "12 Yorum",          imageSrc: "http://img.b2bpic.net/free-photo/dry-twig-wooden-cabinet-white-room_53876-105824.jpg",          imageAlt: "Safir Konsol Masa"},
         {
-          id: "5",          brand: "Vesta Premium",          name: "Obsidyen Berjer",          price: "₺22.000",          rating: 5,
+          id: "5",          brand: "Vesta Premium",          name: "Obsidyen Berjer",          rating: 5,
           reviewCount: "9 Yorum",          imageSrc: "http://img.b2bpic.net/free-photo/view-futuristic-bedroom-with-furniture_23-2151151851.jpg",          imageAlt: "Obsidyen Berjer"},
         {
-          id: "6",          brand: "Vesta Premium",          name: "Elmas Kitaplık Ünitesi",          price: "₺48.000",          rating: 5,
+          id: "6",          brand: "Vesta Premium",          name: "Elmas Kitaplık Ünitesi",          rating: 5,
           reviewCount: "15 Yorum",          imageSrc: "http://img.b2bpic.net/free-photo/3d-rendering-classic-interior_23-2150943456.jpg",          imageAlt: "Elmas Kitaplık Ünitesi"},
       ]}
       title="Öne Çıkan Koleksiyonlar"
@@ -158,43 +157,6 @@ export default function LandingPage() {
     />
   </div>
 
-  <div id="testimonials" data-section="testimonials">
-      <TestimonialCardSixteen
-      animationType="slide-up"
-      textboxLayout="default"
-      useInvertedBackground={true}
-      testimonials={[
-        {
-          id: "1",          name: "Elif Kara",          role: "İç Mimar",          company: "Moda Tasarım Stüdyosu",          rating: 5,
-          imageSrc: "http://img.b2bpic.net/free-photo/portrait-beautiful-woman-greenhouse_23-2148414366.jpg",          imageAlt: "Elif Kara"},
-        {
-          id: "2",          name: "Can Demir",          role: "Yönetici",          company: "Demir Holding",          rating: 5,
-          imageSrc: "http://img.b2bpic.net/free-photo/full-shot-woman-holding-smartphone_23-2150491809.jpg",          imageAlt: "Can Demir"},
-        {
-          id: "3",          name: "Deniz Akın",          role: "Ev Hanımı",          company: "Kişisel",          rating: 5,
-          imageSrc: "http://img.b2bpic.net/free-photo/couple-with-parcels-sofa_23-2147801229.jpg",          imageAlt: "Deniz Akın"},
-        {
-          id: "4",          name: "Arda Yılmaz",          role: "İş İnsanı",          company: "Yılmaz Gayrimenkul",          rating: 5,
-          imageSrc: "http://img.b2bpic.net/free-photo/portrait-beautiful-young-woman-smiling_23-2148454153.jpg",          imageAlt: "Arda Yılmaz"},
-        {
-          id: "5",          name: "Zeynep Öztürk",          role: "Doktor",          company: "Acıbadem Hastanesi",          rating: 5,
-          imageSrc: "http://img.b2bpic.net/free-photo/couple-bad_1157-17383.jpg",          imageAlt: "Zeynep Öztürk"},
-        {
-          id: "6",          name: "Mehmet Fırat",          role: "Avukat",          company: "Fırat Hukuk Bürosu",          rating: 5,
-          imageSrc: "http://img.b2bpic.net/free-photo/young-co-worker-spending-time-office_23-2149328288.jpg",          imageAlt: "Mehmet Fırat"},
-      ]}
-      kpiItems={[
-        {
-          value: "5.0",          label: "Ortalama Puan"},
-        {
-          value: "250+",          label: "Mutlu Müşteri"},
-        {
-          value: "10 Yıl",          label: "Tecrübe"},
-      ]}
-      title="Müşterilerimizden Yorumlar"
-      description="Vesta Premium Mobilya deneyimini yaşayan müşterilerimizin geri bildirimleri, bizim için en değerli ilham kaynağıdır. Onların memnuniyeti, kalitemizin en büyük kanıtıdır."
-    />
-  </div>
 
   <div id="about" data-section="about">
       <MediaAbout
