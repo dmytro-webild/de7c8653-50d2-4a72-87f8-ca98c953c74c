@@ -116,22 +116,22 @@ export default function LandingPage() {
       useInvertedBackground={true}
       products={[
         {
-          id: "1",          brand: "Vesta Premium",          name: "Zümrüt Koltuk Takımı",          rating: 5,
+          id: "1",          brand: "Vesta Premium",          name: "Zümrüt Koltuk Takımı",          price: "₺35.000",          rating: 5,
           reviewCount: "24 Yorum",          imageSrc: "http://img.b2bpic.net/free-photo/wooden-table-luxury-lifestyle-comfortable_1203-4716.jpg",          imageAlt: "Zümrüt Koltuk Takımı"},
         {
-          id: "2",          brand: "Vesta Premium",          name: "Mira Ahşap Yemek Odası",          rating: 5,
+          id: "2",          brand: "Vesta Premium",          name: "Mira Ahşap Yemek Odası",          price: "₺28.500",          rating: 5,
           reviewCount: "18 Yorum",          imageSrc: "http://img.b2bpic.net/free-photo/modern-kitchen-interior-design_23-2150771903.jpg",          imageAlt: "Mira Ahşap Yemek Odası"},
         {
-          id: "3",          brand: "Vesta Premium",          name: "Kanyon Premium Yatak Odası",          rating: 5,
+          id: "3",          brand: "Vesta Premium",          name: "Kanyon Premium Yatak Odası",          price: "₺42.000",          rating: 5,
           reviewCount: "30 Yorum",          imageSrc: "http://img.b2bpic.net/free-photo/luxurious-modern-bedroom-interior-design_23-2151978959.jpg",          imageAlt: "Kanyon Premium Yatak Odası"},
         {
-          id: "4",          brand: "Vesta Premium",          name: "Safir Konsol Masa",          rating: 5,
+          id: "4",          brand: "Vesta Premium",          name: "Safir Konsol Masa",          price: "₺15.750",          rating: 5,
           reviewCount: "12 Yorum",          imageSrc: "http://img.b2bpic.net/free-photo/dry-twig-wooden-cabinet-white-room_53876-105824.jpg",          imageAlt: "Safir Konsol Masa"},
         {
-          id: "5",          brand: "Vesta Premium",          name: "Obsidyen Berjer",          rating: 5,
+          id: "5",          brand: "Vesta Premium",          name: "Obsidyen Berjer",          price: "₺9.900",          rating: 5,
           reviewCount: "9 Yorum",          imageSrc: "http://img.b2bpic.net/free-photo/view-futuristic-bedroom-with-furniture_23-2151151851.jpg",          imageAlt: "Obsidyen Berjer"},
         {
-          id: "6",          brand: "Vesta Premium",          name: "Elmas Kitaplık Ünitesi",          rating: 5,
+          id: "6",          brand: "Vesta Premium",          name: "Elmas Kitaplık Ünitesi",          price: "₺19.200",          rating: 5,
           reviewCount: "15 Yorum",          imageSrc: "http://img.b2bpic.net/free-photo/3d-rendering-classic-interior_23-2150943456.jpg",          imageAlt: "Elmas Kitaplık Ünitesi"},
       ]}
       title="Öne Çıkan Koleksiyonlar"
