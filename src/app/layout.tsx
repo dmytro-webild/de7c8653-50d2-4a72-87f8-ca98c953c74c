@@ -11,8 +11,8 @@ import { Libre_Baskerville } from "next/font/google";
 
 
 export const metadata: Metadata = {
-  title: 'Vesta Premium Mobilya | Lüks Yaşam Alanları',
-  description: 'Vesta Premium Mobilya ile yaşam alanınıza dijital dokunuşlar katın. Özel tasarım lüks koltuk takımları, yemek odaları ve yatak odaları koleksiyonlarımızla tanışın.',
+  title: "Vestaa Premium Mobilya | Lüks Yaşam Alanları",
+  description: "Vestaa Premium Mobilya ile yaşam alanınıza dijital dokunuşlar katın. Özel tasarım lüks koltuk takımları, yemek odaları ve yatak odaları koleksiyonlarımızla tanışın.",
   openGraph: {
     "title": "Vesta Premium Mobilya | Lüks Yaşam Alanları",
     "description": "Vesta Premium Mobilya ile yaşam alanınıza dijital dokunuşlar katın. Özel tasarım lüks koltuk takımları, yemek odaları ve yatak odaları koleksiyonlarımızla tanışın.",
